@@ -1,11 +1,11 @@
-array_1=[1,2,3,4,5,6,7,8,9,10]
-
-function ordinaDecrescente(array_1) {
-    return array_1.reverse();
-}
+let array_1=[3, 7, -2, 5, 8, 1, 2, 5, 6, -4, 12, 25];
 
 
-console.log(array_1.reverse());
+let sor= array_1.sort((a,b)=> a - b);
+
+console.log(sor);
 
 
-console.log(array_1.sort());
+let sor2= array_1.sort((a,b)=> b - a);
+
+console.log(sor2);
